@@ -1,0 +1,28 @@
+h1{
+    color: green;
+    text-align: center;
+}
+div{
+    padding: 12px;
+    box-sizing: border-box;
+    color: red;
+    float: left;
+    margin: 0%;
+}
+.box1{
+    background-color: gray;
+}
+.box2{
+    background-color: rgb(137, 136, 136);
+}
+.box3{
+    background-color: rgb(149, 147, 147);
+}
+.box4{
+    background-color: rgb(168, 166, 166);
+}
+@media all and (max-width:920px) and (min-width:700px){
+    .box1,.box2,.box3,.box4{
+        width: 100%;
+    }
+}
